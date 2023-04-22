@@ -193,6 +193,9 @@ body.page-template-page-fullsingle-split p {
   letter-spacing: 0.4px;
   color: #47bec7;
 }
+.split-intro h1 a {
+  color: #47bec7;
+}
 .split-intro .tagline {
   color: #CCCCCC;
 }

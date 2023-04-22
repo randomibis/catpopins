@@ -1,4 +1,8 @@
 <div class="split-intro">
-  {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+  {{ if eq .Title "Cat Pop-ins" }}
+    {{ with .Title }}<h1><a href="/catpopins/">Cat Pop-ins</a></h1>{{ end }}
+  {{ else }}
+    {{ with .Title }}<h1>{{ . }}</h1>{{ end }}
+  {{ end }}
   {{ with .Params.tagline }}<h2 class="tagline">{{ . }}</h2>{{ end }}
 </div>
