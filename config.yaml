@@ -1,0 +1,39 @@
+baseURL: "https://catpopins.com/"
+languageCode: en-us
+title: Cat Pop-ins
+theme: hugo-split-theme
+
+params:
+  author: Aoife Austin
+  description: todo
+
+  visual:
+    image:
+      enable: true
+      file: images/splash.png
+      position: center center
+
+  links:
+    - list1:
+        heading: Services
+        link:
+          - text: Cat sitting
+            url: /sitting
+          - text: Photography
+            url: /photography
+
+    - list2:
+        heading: About
+        link:
+          - text: Testimonials
+            url: /testimonals
+          - text: Pricing
+            url: /pricing
+
+    - list3:
+        heading: Social
+        link:
+          - text: Instagram
+            url: '#'
+          - text: Facebook
+            url: '#'
