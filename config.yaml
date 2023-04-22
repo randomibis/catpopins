@@ -1,6 +1,8 @@
-baseURL: "https://catpopins.com/"
+baseURL: https://simonbaird.github.io/catpopins
+
 languageCode: en-us
 title: Cat Pop-ins
+
 theme: hugo-split-theme
 
 params:
@@ -18,17 +20,17 @@ params:
         heading: Services
         link:
           - text: Cat sitting
-            url: /sitting
+            url: cat-sitting
           - text: Photography
-            url: /photography
+            url: photography
 
     - list2:
         heading: About
         link:
           - text: Testimonials
-            url: /testimonals
+            url: testimonials
           - text: Pricing
-            url: /pricing
+            url: pricing
 
     - list3:
         heading: Social
