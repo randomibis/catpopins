@@ -143,7 +143,7 @@ body.page-template-page-fullsingle-split p {
 }
 @media (max-width: 800px) {
   .fs-split .split-image {
-    height: 80vh;
+    height: 40vh;
     width: 100%;
   }
 }
@@ -175,6 +175,7 @@ body.page-template-page-fullsingle-split p {
 @media (max-width: 800px) {
   .fs-split .split-content .split-content-vertically-center {
     padding: 40px;
+    margin-top: 1em; /* not auto */
   }
 }
 
@@ -198,6 +199,11 @@ body.page-template-page-fullsingle-split p {
 }
 .split-intro .tagline {
   color: #CCCCCC;
+}
+@media (max-width: 800px) {
+  .split-intro .tagline {
+    font-size: 80%;
+  }
 }
 
 .split-bio {
